@@ -1,0 +1,15 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import "tailwindcss";
+
+@theme{
+    --font-secendre: 'Inter', sans-serif;
+    --font-primary: 'Raleway', sans-serif;
+}
+
+.common {
+    @apply font-primary text-[24px] font-semibold;
+}
+.back {
+    @apply hover:bg-black hover:text-white cursor-pointer;
+}
