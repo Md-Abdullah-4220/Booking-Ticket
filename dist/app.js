@@ -18,10 +18,6 @@ document
 const searchBtn = document.querySelectorAll("#searBtn");
 searchBtn.forEach((btn) => {
   btn.addEventListener("click", function () {
-    // btn.classList.add("bg-[#1DD100]");
-    // btn.classList.add("text-white");
-    // btn.classList.remove("bg-gray-100");
-    // btn.classList.remove("back");
     let inText = btn.innerHTML;
     console.log(inText);
     if (btn.classList.contains("bg-[#1DD100]")) {
