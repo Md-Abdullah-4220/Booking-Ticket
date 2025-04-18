@@ -211,9 +211,6 @@
   .top-28 {
     top: calc(var(--spacing) * 28);
   }
-  .right-0 {
-    right: calc(var(--spacing) * 0);
-  }
   .right-0\.5 {
     right: calc(var(--spacing) * 0.5);
   }
@@ -325,12 +322,6 @@
   .inline-flex {
     display: inline-flex;
   }
-  .table {
-    display: table;
-  }
-  .h-6 {
-    height: calc(var(--spacing) * 6);
-  }
   .h-10 {
     height: calc(var(--spacing) * 10);
   }
@@ -373,14 +364,8 @@
   .w-0 {
     width: calc(var(--spacing) * 0);
   }
-  .w-3 {
-    width: calc(var(--spacing) * 3);
-  }
   .w-3\/4 {
     width: calc(3/4 * 100%);
-  }
-  .w-6 {
-    width: calc(var(--spacing) * 6);
   }
   .w-10 {
     width: calc(var(--spacing) * 10);
@@ -403,20 +388,8 @@
   .max-w-xl {
     max-width: var(--container-xl);
   }
-  .flex-shrink {
-    flex-shrink: 1;
-  }
-  .shrink-0 {
-    flex-shrink: 0;
-  }
-  .border-collapse {
-    border-collapse: collapse;
-  }
   .cursor-pointer {
     cursor: pointer;
-  }
-  .resize {
-    resize: both;
   }
   .grid-flow-col {
     grid-auto-flow: column;
@@ -548,9 +521,6 @@
   .fill-current {
     fill: currentcolor;
   }
-  .stroke-current {
-    stroke: currentcolor;
-  }
   .p-1 {
     padding: calc(var(--spacing) * 1);
   }
@@ -622,10 +592,6 @@
   .text-6xl {
     font-size: var(--text-6xl);
     line-height: var(--tw-leading, var(--text-6xl--line-height));
-  }
-  .text-lg {
-    font-size: var(--text-lg);
-    line-height: var(--tw-leading, var(--text-lg--line-height));
   }
   .text-xl {
     font-size: var(--text-xl);
@@ -701,10 +667,6 @@
   }
   .\[box-shadow\:rgba\(0\,_0\,_0\,_0\.2\)_0px_2px_4px\,_rgba\(29\,_209\,_0\,_1\)_0px_-3px_0px_inset\] {
     box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 4px, rgba(29, 209, 0, 1) 0px -3px 0px inset;
-  }
-  .outline {
-    outline-style: var(--tw-outline-style);
-    outline-width: 1px;
   }
   .transition-colors {
     transition-property: color, background-color, border-color, outline-color, text-decoration-color, fill, stroke, --tw-gradient-from, --tw-gradient-via, --tw-gradient-to;
@@ -911,11 +873,6 @@
   syntax: "*";
   inherits: false;
 }
-@property --tw-outline-style {
-  syntax: "*";
-  inherits: false;
-  initial-value: solid;
-}
 @property --tw-duration {
   syntax: "*";
   inherits: false;
@@ -929,7 +886,6 @@
     *, ::before, ::after, ::backdrop {
       --tw-border-style: solid;
       --tw-font-weight: initial;
-      --tw-outline-style: solid;
       --tw-duration: initial;
       --tw-ease: initial;
     }
